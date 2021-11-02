@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+      <title>Document</title>
+      <link rel="stylesheet" type="text/css" href="mission1.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+  </head>
+
+  <!-- Body -->
+  <body>
+
+      <!-- Navbar -->
+      <nav>
+        <div class="logo">
+          YachtLink CVs  <i class="fa fa-anchor"></i> 
+        </div>
+        <div class="links">
+          <a href="">Home</a>
+          <a href="">Build CV</a>
+          <a href="">Cover Letters</a>
+          
+          <div class= 
+            button id="show-login">Login </button>
+          </div> 
+          <a href= "center"></a>
+        </div>
+      </nav>
+
+      <!-- Contents for first section-->
+      <div class="grid-container">
+          <div class="grid-child"> 
+
+              <h2>Professional Superyacht CV/Resume Builder.</h2>
+
+              <p>Create a customisable Superyacht CV with our template tool</p>
+              <button class="btn" name="formBtn" onclick="addPricing()">Get Started <i class="fa fa-anchor"></i></button>
+          </div> 
+      
+          <img src="superyachtimage1.png"> 
+      </div>
+
+      <!-- Second section: Pricing -->
+      <div id="pricing"></div>
+
+
+      <!-- Login Modal -->
+
+     
+      <div class="popup">
+        <div class="close-btn">&times;</div>
+        <div class="form">
+          <h2>Log in</h2>
+          <div class="form-element">
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Enter email">
+          </div>
+          <div class="form-element">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter password">
+          </div>
+          <div class="form-element">
+            <input type="checkbox" id="remember-me">
+            <label for="remember-me">Remember me</label>
+          </div>
+          <div class="form-element">
+            <button>Sign in</button>
+          </div>
+          <div class="form-element">
+            <a href="#">Forgot password?</a>
+          </div>
+        </div>
+      </div>
+      <!-- Scripts -->
+      <script type="text/javascript" src="Mission1.js"></script>
+
+  </body>
+
+</html>     
